@@ -193,7 +193,7 @@ void stickwomen_chat(int speed,int box_color,int text_color)
    setcolor(text_color);
     settextstyle(EUROPEAN_FONT,HORIZ_DIR,1);
 	outtextxy(45+s,210,"Sorry, I love");
-	outtextxy(100+s,240,"Vishu");
+	outtextxy(100+s,240,"atul");
 	
 }
 // road
@@ -263,16 +263,16 @@ void subscribe()
 {
 	setcolor(LIGHTGREEN);
 	settextstyle(EUROPEAN_FONT,HORIZ_DIR,5);
-	outtextxy(50,150,"__its__alone__vishu__");
+	outtextxy(50,150,"__its__alone__atul__");
 	settextstyle(EUROPEAN_FONT,HORIZ_DIR,4);
 	setcolor(LIGHTBLUE);
-	outtextxy(100,230,"GITHUB ID: Vishu-Br");
+	outtextxy(100,230,"GITHUB ID: atul-Br");
 }
 // driver program
 int main()
 {
 
-	initwindow(700,550,"VISHU",150,50);
+	initwindow(700,550,"ATUL",150,50);
 	int page=0;
 	int sm=4;
 	int sw=4;
